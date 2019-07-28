@@ -1,5 +1,9 @@
 # RxjsSamples
 
+RXJS Samples contains practice examples I created while learning RXJS
+For more samples, please see https://www.learnrxjs.io/
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.2.
 
 ## Development server
