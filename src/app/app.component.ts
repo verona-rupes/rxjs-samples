@@ -16,7 +16,7 @@ import { ErrorHandling } from './error/errorHandling';
 export class AppComponent implements OnInit, AfterViewInit {
   title = 'rxjs-samples';
 
-  @ViewChild('password')
+  @ViewChild('password', { read: true, static: false })
   input: ElementRef;
 
 
@@ -27,7 +27,7 @@ export class AppComponent implements OnInit, AfterViewInit {
   }
 
   ngAfterViewInit(): void {
-   // new SwitchMap().run(this.input.nativeElement);
+    // new SwitchMap().run(this.input.nativeElement);
 
   }
 }
